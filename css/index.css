@@ -134,6 +134,8 @@ h1 h2 h3 h4 {
     border-radius: var(--border-radius20);
     gap: 12px;
     color: #ffffff;
+    outline: none;
+    border: none;
 }
 
 /* hero */
@@ -208,14 +210,14 @@ h1 h2 h3 h4 {
     align-items: flex-end;
     gap: 12px;
 }
-/* trend */
+/* trand */
 
-.trend__heading{
+.trand__heading{
     font-size: var(--heading-size-desctop);
     font-weight: 600;
     margin: 0 0 10px 0;
 }
-.trend__description{
+.trand__description{
     font-size: 22px;
     font-weight: 400;
     margin: 0;
