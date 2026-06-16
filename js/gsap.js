@@ -108,7 +108,7 @@ document.querySelectorAll(".trand__group-card-img-small-count").forEach(link => 
 });
 
 
-document.querySelectorAll(".creators__group-card").forEach(link => {
+document.querySelectorAll(".creators__group-card, .category__card").forEach(link => {
   link.addEventListener("mouseenter", () => {
     gsap.to(link, {
       scale: 1.1,
@@ -126,20 +126,20 @@ document.querySelectorAll(".creators__group-card").forEach(link => {
   });
 });
 
-document.querySelectorAll(".category__card").forEach(link => {
-  link.addEventListener("mouseenter", () => {
-    gsap.to(link, {
-      scale: 1.1,
-      duration: 0.3,
-      ease: "power2.out"
-    });
-  });
+// document.querySelectorAll(".category__card").forEach(link => {
+//   link.addEventListener("mouseenter", () => {
+//     gsap.to(link, {
+//       scale: 1.1,
+//       duration: 0.3,
+//       ease: "power2.out"
+//     });
+//   });
 
-  link.addEventListener("mouseleave", () => {
-    gsap.to(link, {
-      scale: 1,
-      duration: 0.3,
-      ease: "power2.out"
-    });
-  });
-});
+//   link.addEventListener("mouseleave", () => {
+//     gsap.to(link, {
+//       scale: 1,
+//       duration: 0.3,
+//       ease: "power2.out"
+//     });
+//   });
+// });
